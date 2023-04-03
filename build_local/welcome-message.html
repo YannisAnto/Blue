@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+  <meta charset="utf-8">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no">
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
+  <!--[if mso]>
+  <noscript>
+    <xml>
+      <o:OfficeDocumentSettings xmlns:o="urn:schemas-microsoft-com:office:office">
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  </noscript>
+  <style>
+    td,th,div,p,a,h1,h2,h3,h4,h5,h6 {font-family: "Segoe UI", sans-serif; mso-line-height-rule: exactly;}
+  </style>
+  <![endif]-->
+  
+    <title>Blue - Notification email template</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+  <style>/* Your custom CSS resets for email */
+/*
+ * Here is where you can add your global email CSS resets.
+ *
+ * We use a custom, email-specific CSS reset, instead
+ * of Tailwind's web-optimized `base` layer.
+ *
+ * Styles defined here will be inlined.
+*/
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  line-height: 1;
+  border: 0
+}
+/* Tailwind CSS components */
+/**
+ * @import here any custom CSS components - that is, CSS that
+ * you'd want loaded before the Tailwind utilities, so the
+ * utilities can still override them.
+*/
+/* Tailwind CSS utility classes */
+.absolute {
+  position: absolute
+}
+.m-0 {
+  margin: 0
+}
+.my-12 {
+  margin-top: 48px;
+  margin-bottom: 48px
+}
+.mb-1 {
+  margin-bottom: 4px
+}
+.mb-2 {
+  margin-bottom: 8px
+}
+.mb-4 {
+  margin-bottom: 16px
+}
+.mb-5 {
+  margin-bottom: 20px
+}
+.mb-6 {
+  margin-bottom: 24px
+}
+.mb-7 {
+  margin-bottom: 28px
+}
+.mt-0 {
+  margin-top: 0
+}
+.inline-block {
+  display: inline-block
+}
+.table {
+  display: table
+}
+.hidden {
+  display: none
+}
+.w-1-2 {
+  width: 50%
+}
+.w-1-3 {
+  width: 33.333333%
+}
+.w-12 {
+  width: 48px
+}
+.w-2-3 {
+  width: 66.666667%
+}
+.w-8-12 {
+  width: 66.666667%
+}
+.w-9 {
+  width: 36px
+}
+.w-117px {
+  width: 117px
+}
+.w-254px {
+  width: 254px
+}
+.w-552px {
+  width: 552px
+}
+.w-600px {
+  width: 600px
+}
+.w-640px {
+  width: 640px
+}
+.w-full {
+  width: 100%
+}
+.max-w-full {
+  max-width: 100%
+}
+.cursor-default {
+  cursor: default
+}
+.rounded {
+  border-radius: 4px
+}
+.rounded-full {
+  border-radius: 9999px
+}
+.border-0 {
+  border-width: 0px
+}
+.border-b-4 {
+  border-bottom-width: 4px
+}
+.border-t-10px {
+  border-top-width: 10px
+}
+.border-solid {
+  border-style: solid
+}
+.border-b-azure {
+  border-bottom-color: #0387EC
+}
+.border-t-_F1F1F1 {
+  border-top-color: #F1F1F1
+}
+.bg-_F8F8F8 {
+  background-color: #F8F8F8
+}
+.bg-azure {
+  background-color: #0387EC
+}
+.bg-slate-200 {
+  background-color: #e2e8f0
+}
+.bg-slate-300 {
+  background-color: #cbd5e1
+}
+.bg-slate-50 {
+  background-color: #f8fafc
+}
+.bg-white {
+  background-color: #fff
+}
+.bg-cover {
+  background-size: cover
+}
+.bg-top {
+  background-position: top
+}
+.bg-no-repeat {
+  background-repeat: no-repeat
+}
+.p-0 {
+  padding: 0
+}
+.p-12 {
+  padding: 48px
+}
+.p-6 {
+  padding: 24px
+}
+.px-12 {
+  padding-left: 48px;
+  padding-right: 48px
+}
+.px-2 {
+  padding-left: 8px;
+  padding-right: 8px
+}
+.px-2_5 {
+  padding-left: 10px;
+  padding-right: 10px
+}
+.px-4 {
+  padding-left: 16px;
+  padding-right: 16px
+}
+.px-6 {
+  padding-left: 24px;
+  padding-right: 24px
+}
+.px-7 {
+  padding-left: 28px;
+  padding-right: 28px
+}
+.px-7_5 {
+  padding-left: 30px;
+  padding-right: 30px
+}
+.px-9 {
+  padding-left: 36px;
+  padding-right: 36px
+}
+.py-10 {
+  padding-top: 40px;
+  padding-bottom: 40px
+}
+.py-4 {
+  padding-top: 16px;
+  padding-bottom: 16px
+}
+.py-5 {
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+.pb-8 {
+  padding-bottom: 32px
+}
+.pl-1 {
+  padding-left: 4px
+}
+.pl-4 {
+  padding-left: 16px
+}
+.pr-1 {
+  padding-right: 4px
+}
+.pr-4 {
+  padding-right: 16px
+}
+.pr-5 {
+  padding-right: 20px
+}
+.text-left {
+  text-align: left
+}
+.text-center {
+  text-align: center
+}
+.text-right {
+  text-align: right
+}
+.align-top {
+  vertical-align: top
+}
+.align-middle {
+  vertical-align: middle
+}
+.font-Barlow {
+  font-family: 'Barlow', system-ui, -apple-system, "Segoe UI", sans-serif
+}
+.font-sans {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif
+}
+.text-2xl {
+  font-size: 24px
+}
+.text-4xl {
+  font-size: 36px
+}
+.text-5xl {
+  font-size: 48px
+}
+.text-base {
+  font-size: 16px
+}
+.text-lg {
+  font-size: 18px
+}
+.text-sm {
+  font-size: 14px
+}
+.text-xl {
+  font-size: 20px
+}
+.text-xs {
+  font-size: 12px
+}
+.font-black {
+  font-weight: 900
+}
+.font-bold {
+  font-weight: 700
+}
+.font-light {
+  font-weight: 300
+}
+.font-normal {
+  font-weight: 400
+}
+.font-semibold {
+  font-weight: 600
+}
+.uppercase {
+  text-transform: uppercase
+}
+.italic {
+  font-style: italic
+}
+.leading-10 {
+  line-height: 40px
+}
+.leading-11 {
+  line-height: 44px
+}
+.leading-12 {
+  line-height: 48px
+}
+.leading-14 {
+  line-height: 56px
+}
+.leading-16 {
+  line-height: 64px
+}
+.leading-6 {
+  line-height: 24px
+}
+.leading-6_5 {
+  line-height: 26px
+}
+.leading-8 {
+  line-height: 32px
+}
+.leading-56px {
+  line-height: 56px
+}
+.leading-none {
+  line-height: 1
+}
+.tracking-1px {
+  letter-spacing: 1px
+}
+.text-azure {
+  color: #0387EC
+}
+.text-black {
+  color: #000
+}
+.text-black_222 {
+  color: #222222
+}
+.text-black_333 {
+  color: #333333
+}
+.text-black_444 {
+  color: #444444
+}
+.text-black_666 {
+  color: #666666
+}
+.text-indigo-700 {
+  color: #4338ca
+}
+.text-malibu {
+  color: #50C0FF
+}
+.text-slate-500 {
+  color: #64748b
+}
+.text-slate-600 {
+  color: #475569
+}
+.text-slate-700 {
+  color: #334155
+}
+.text-white {
+  color: #fff
+}
+.mso-font-width--100pc {
+  mso-font-width: -100%
+}
+.shadow-sm {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05)
+}
+.-webkit-font-smoothing-antialiased {
+  -webkit-font-smoothing: antialiased
+}
+.text-decoration-none {
+  text-decoration: none
+}
+.word-break-break-word {
+  word-break: break-word
+}
+/* Your custom utility classes */
+/*
+ * Here is where you can define your custom utility classes.
+ *
+ * We wrap them in the `utilities` @layer directive, so
+ * that Tailwind moves them to the correct location.
+ *
+ * More info:
+ * https://tailwindcss.com/docs/functions-and-directives#layer
+*/
+.hover-text-indigo-500:hover {
+  color: #6366f1 !important
+}
+.hover-important-text-decoration-underline:hover {
+  text-decoration: underline !important
+}
+@media (max-width: 600px) {
+  .sm-m-auto {
+    margin: auto !important
+  }
+  .sm-my-8 {
+    margin-top: 32px !important;
+    margin-bottom: 32px !important
+  }
+  .sm-inline-block {
+    display: inline-block !important
+  }
+  .sm-w-6 {
+    width: 24px !important
+  }
+  .sm-w-8-12 {
+    width: 66.666667% !important
+  }
+  .sm-w-full {
+    width: 100% !important
+  }
+  .sm-px-0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important
+  }
+  .sm-px-4 {
+    padding-left: 16px !important;
+    padding-right: 16px !important
+  }
+  .sm-px-5 {
+    padding-left: 20px !important;
+    padding-right: 20px !important
+  }
+  .sm-px-6 {
+    padding-left: 24px !important;
+    padding-right: 24px !important
+  }
+  .sm-py-5 {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important
+  }
+  .sm-py-8 {
+    padding-top: 32px !important;
+    padding-bottom: 32px !important
+  }
+  .sm-pb-7 {
+    padding-bottom: 28px !important
+  }
+  .sm-pb-8 {
+    padding-bottom: 32px !important
+  }
+  .sm-text-center {
+    text-align: center !important
+  }
+  .sm-text-3xl {
+    font-size: 30px !important
+  }
+  .sm-leading-10 {
+    line-height: 40px !important
+  }
+  .sm-leading-8 {
+    line-height: 32px !important
+  }
+}</style>
+  
+</head>
+<body class="m-0 p-0 w-full word-break-break-word -webkit-font-smoothing-antialiased bg-white">
+  
+    <div class="hidden">
+      Design your Email Templates without writing a line of code.
+      &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; 
+    </div>
+  <div role="article" aria-roledescription="email" aria-label="Blue - Notification email template" lang="en">
+    
+    <div class="bg-white font-Barlow">
+      <table align="center" class="sm-px-4" cellpadding="0" cellspacing="0" role="presentation">
+        <tr>
+          <td class="w-640px max-w-full">
+            <table class="w-full" cellpadding="0" cellspacing="0" role="presentation">
+              <tr>
+                <td class="text-center">
+                  <table align="center" cellpadding="0" cellspacing="0" role="presentation">
+  <tr>
+    <td class="py-5 sm-py-5 sm-px-5 text-center">
+      <a href="https://maizzle.com">
+        <img src="https://modulescomposer.s3.us-east-2.amazonaws.com/blue/logo.png" width="120" alt="Blue">
+      </a>
+    </td>
+  </tr>
+</table>
+
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="https://modulescomposer.s3.us-east-2.amazonaws.com/blue/header-1.jpg" class="w-full" width="640" alt="Hero">
+                </td>
+              </tr>
+              <tr>
+                <td class="w-full px-7_5 py-10 sm-px-0">
+                  <table class="w-full" cellpadding="0" cellspacing="0" role="presentation">
+                    <tr>
+                      <td class="text-center">
+                        <p class="m-0 font-Barlow text-sm leading-6 tracking-1px font-black text-malibu">THANKS FOR JOINING US</p>
+
+                        <h1 class="mt-0 font-Barlow mb-4 text-5xl leading-56px font-black text-black_222">Welcome aboard!</h1>
+
+                        <p class="mt-0 mb-6 font-Barlow text-base leading-6_5 font-normal text-black_333">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi accus antium iste natus.</p>
+
+                        
+
+<div>
+  <a href="https://example.com" class="inline-block py-4 px-9 text-base leading-none font-bold text-white bg-azure text-decoration-none">
+    <!--[if mso]>
+      <i class="mso-font-width--100pc" style="letter-spacing: 36px;; mso-text-raise: 32pt;;" hidden="">&nbsp;</i>
+    <![endif]-->
+    <span style="mso-text-raise: 16pt;">
+                          GET STARTED
+                        </span>
+    <!--[if mso]>
+      <i class="mso-font-width--100pc" style="letter-spacing: 36px;;" hidden="">&nbsp;</i>
+    <![endif]-->
+  </a>
+</div>
+
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td class="leading-10">&zwj;</td>
+              </tr>
+              <tr>
+                <td class="text-center">
+                  <h2 class="m-0 font-Barlow text-4xl leading-11 font-bold text-black_222">What's next</h2>
+                </td>
+              </tr>
+              <tr>
+                <td class="leading-8">&zwj;</td>
+              </tr>
+              <tr>
+                <td>
+                  <table class="w-8-12 sm-w-full" align="center" cellpadding="0" cellspacing="0" role="presentation">
+                    <tr>
+                      <td class="w-1-3 pr-4 sm-px-0 sm-pb-7 sm-w-full sm-inline-block" valign="top" align="center
+                      ">
+                        <img src="https://modulescomposer.s3.us-east-2.amazonaws.com/blue/project-1.jpg" class="w-full rounded-full sm-w-8-12" width="160" alt="project-1">
+                      </td>
+                      <td class="w-2-3 sm-w-full sm-inline-block sm-text-center">
+                        <h3 class="mt-0 mb-2 font-Barlow text-lg leading-6 font-bold text-malibu">Create your Project</h3>
+                        <p class="mt-0 mb-5 font-Barlow text-sm leading-6 font-normal text-black_333">
+                          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi accus antium iste natus.
+                        </p>
+                        
+
+<table class="sm-m-auto" cellpadding="0" cellspacing="0" role="presentation">
+  <tr>
+    <td class="font-Barlow border-0 border-b-4 border-solid border-b-azure">
+        <a href="https://example.com" class="p-0 inline-block text-sm leading-6 font-normal text-azure text-decoration-none">
+        
+                          LEARN MORE
+                        
+                      
+      </a>
+    </td>
+  </tr>
+</table>
+
+</td>
+                    </tr>
+                    <tr>
+                      <td class="leading-14">&zwj;</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <table class="w-8-12 sm-w-full" align="center" cellpadding="0" cellspacing="0" role="presentation">
+                    <tr>
+                      <td class="w-1-3 pr-4 sm-px-0 sm-pb-7 sm-w-full sm-inline-block" valign="top" align="center
+                      ">
+                        <img src="https://modulescomposer.s3.us-east-2.amazonaws.com/blue/project-2.jpg" class="w-full rounded-full sm-w-8-12" width="160" alt="project-2">
+                      </td>
+                      <td class="w-2-3 sm-w-full sm-inline-block sm-text-center">
+                        <h3 class="mt-0 mb-2 font-Barlow text-lg leading-6 font-bold text-malibu">Wait for approval</h3>
+                        <p class="mt-0 mb-5 font-Barlow text-sm leading-6 font-normal text-black_333">
+                          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi accus antium iste natus.
+                        </p>
+                        
+
+<table class="sm-m-auto" cellpadding="0" cellspacing="0" role="presentation">
+  <tr>
+    <td class="font-Barlow border-0 border-b-4 border-solid border-b-azure">
+        <a href="https://example.com" class="p-0 inline-block text-sm leading-6 font-normal text-azure text-decoration-none">
+        
+                          LEARN MORE
+                        
+                      
+      </a>
+    </td>
+  </tr>
+</table>
+
+</td>
+                    </tr>
+                    <tr>
+                      <td class="leading-14">&zwj;</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <table class="w-8-12 sm-w-full" align="center" cellpadding="0" cellspacing="0" role="presentation">
+                    <tr>
+                      <td class="w-1-3 pr-4 sm-px-0 sm-pb-7 sm-w-full sm-inline-block" valign="top" align="center
+                      ">
+                        <img src="https://modulescomposer.s3.us-east-2.amazonaws.com/blue/project-3.jpg" class="w-full rounded-full sm-w-8-12" width="160" alt="project-3">
+                      </td>
+                      <td class="w-2-3 sm-w-full sm-inline-block sm-text-center">
+                        <h3 class="mt-0 mb-2 font-Barlow text-lg leading-6 font-bold text-malibu">Share your idea!</h3>
+                        <p class="mt-0 mb-5 font-Barlow text-sm leading-6 font-normal text-black_333">
+                          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi accus antium iste natus.
+                        </p>
+                        
+
+<table class="sm-m-auto" cellpadding="0" cellspacing="0" role="presentation">
+  <tr>
+    <td class="font-Barlow border-0 border-b-4 border-solid border-b-azure">
+        <a href="https://example.com" class="p-0 inline-block text-sm leading-6 font-normal text-azure text-decoration-none">
+        
+                          LEARN MORE
+                        
+                      
+      </a>
+    </td>
+  </tr>
+</table>
+
+</td>
+                    </tr>
+                    <tr>
+                      <td class="leading-14">&zwj;</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td align="center">
+                  
+
+<div>
+  <a href="https://example.com" class="inline-block py-4 px-9 text-base leading-none font-bold text-white bg-azure text-decoration-none">
+    <!--[if mso]>
+      <i class="mso-font-width--100pc" style="letter-spacing: 36px;; mso-text-raise: 32pt;;" hidden="">&nbsp;</i>
+    <![endif]-->
+    <span style="mso-text-raise: 16pt;">
+                    Tutorials & Tips
+                  </span>
+    <!--[if mso]>
+      <i class="mso-font-width--100pc" style="letter-spacing: 36px;;" hidden="">&nbsp;</i>
+    <![endif]-->
+  </a>
+</div>
+
+                </td>
+              </tr>
+              <tr>
+                <td class="leading-14">&zwj;</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <table class="w-full" align="center" cellpadding="0" cellspacing="0" role="presentation">
+  <tr>
+    <td class="bg-_F8F8F8 border-0 border-solid border-t-10px border-t-_F1F1F1 px-4">
+      <table align="center" cellpadding="0" cellspacing="0" role="presentation">
+        <tr>
+          <td class="leading-14">&zwj;</td>
+        </tr>
+        <tr>
+          <td class="w-640px max-w-full text-center">
+            <table class="w-full" align="center" cellpadding="0" cellspacing="0" role="presentation">
+              <tr>
+                <td class="text-center">
+                  <p class="mt-0 mb-7 font-Barlow text-black_444 text-xl font-bold">Download our app</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <table class="w-254px" align="center" cellpadding="0" cellspacing="0" role="presentation">
+                    <tr>
+                      <td class="w-117px pr-5 sm-inline-block" align="center
+                      ">
+                        <img src="https://modulescomposer.s3.us-east-2.amazonaws.com/blue/App-Store.png" class="w-full" width="160" alt="App-Store">
+                      </td>
+                      <td class="w-117px sm-px-0 sm-inline-block" align="center
+                      ">
+                        <img src="https://modulescomposer.s3.us-east-2.amazonaws.com/blue/Google-play.png" class="w-full" width="160" alt="Google-play">
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td class="leading-14">&zwj;</td>
+              </tr>
+              <tr>
+                <td class="text-center" "="">
+                <a href="https://example.com" class="font-Barlow text-sm font-normal text-black_666 text-decoration-none hover-important-text-decoration-underline inline-block align-middle">HOME</a> <span class="font-Barlow text-sm pl-1 pr-1 font-normal text-black_666 inline-block align-middle">|</span> <a href="https://example.com" class="font-Barlow text-sm font-normal text-black_666 text-decoration-none hover-important-text-decoration-underline inline-block align-middle">BLOG</a> <span class="font-Barlow text-sm pl-1 pr-1 font-normal text-black_666 inline-block align-middle">|</span> <a href="https://example.com" class="font-Barlow text-sm font-normal text-black_666 text-decoration-none hover-important-text-decoration-underline inline-block align-middle">CONTACT US</a> <span class="font-Barlow text-sm pl-1 pr-1 font-normal text-black_666 inline-block align-middle">|</span> <a href="https://example.com" class="font-Barlow text-sm font-normal text-black_666 text-decoration-none hover-important-text-decoration-underline inline-block align-middle">PRIVACY POLICY</a> <span class="font-Barlow text-sm pl-1 pr-1 font-normal text-black_666 inline-block align-middle">|</span> <a href="https://example.com" class="font-Barlow text-sm font-normal text-black_666 text-decoration-none hover-important-text-decoration-underline inline-block align-middle">TERMS</a>
+                </td>
+              </tr>
+              <tr>
+                <td class="leading-14">&zwj;</td>
+              </tr>
+              <tr>
+                <td>
+                  <table align="center" cellpadding="0" cellspacing="0" role="presentation">
+                    <tr>
+                      <td class="w-9 px-2_5 sm-inline-block" align="center">
+                        <a href="https://example.com"><img src="https://modulescomposer.s3.us-east-2.amazonaws.com/blue/Facebook.png" class="w-full" width="32" alt="Facebook"></a>
+                      </td>
+                      <td class="w-9 px-2_5 sm-inline-block" align="center">
+                        <a href="https://example.com"><img src="https://modulescomposer.s3.us-east-2.amazonaws.com/blue/Instagram.png" class="w-full" width="32" alt="Instagram"></a>
+                      </td>
+                      <td class="w-9 px-2_5 sm-inline-block" align="center">
+                        <a href="https://example.com"><img src="https://modulescomposer.s3.us-east-2.amazonaws.com/blue/Twitter.png" class="w-full" width="32" alt="Twitter"></a>
+                      </td>
+                      <td class="w-9 px-2_5 sm-inline-block" align="center">
+                        <a href="https://example.com"><img src="https://modulescomposer.s3.us-east-2.amazonaws.com/blue/Pinterest.png" class="w-full" width="32" alt="Pinterest"></a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td class="leading-14">&zwj;</td>
+              </tr>
+              <tr>
+                <td class="text-center">
+                  <p class="m-0 font-Barlow text-black_666 text-sm leading-6 font-light">
+                    2021 Blue Inc. All Rights Reserved.<br>
+                    Address name St. 24, City Name, State, Country Name
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td class="leading-14">&zwj;</td>
+              </tr>
+              <tr>
+                <td class="text-center" "="">
+                <a href="https://example.com" class="font-Barlow text-sm font-light text-black_666 text-decoration-none hover-important-text-decoration-underline inline-block align-middle">Unsubscribe</a> <span class="font-Barlow text-sm pl-1 pr-1 font-light text-black_666 inline-block align-middle">|</span> <a href="https://example.com" class="font-Barlow text-sm font-light text-black_666 text-decoration-none hover-important-text-decoration-underline inline-block align-middle">View on browser</a> <span class="font-Barlow text-sm pl-1 pr-1 font-light text-black_666 inline-block align-middle">|</span> <a href="https://example.com" class="font-Barlow text-sm font-light text-black_666 text-decoration-none hover-important-text-decoration-underline inline-block align-middle">Forward</a> <span class="font-Barlow text-sm pl-1 pr-1 font-light text-black_666 inline-block align-middle"></span>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td class="leading-10">&zwj;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+    </div>
+  
+  </div>
+</body>
+</html>
+
